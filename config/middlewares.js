@@ -6,9 +6,9 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "connect-src": ["'self'", "https:", "res.cloudinary.com"],
-          "img-src": ["'self'", "data:", "blob:", "res.cloudinary.com"],
-          "media-src": ["'self'", "data:", "blob:", "res.cloudinary.com"],
+          "connect-src": ["'self'", "https:", "*.cloudinary.com"],
+          "img-src": ["'self'", "data:", "blob:", "*.cloudinary.com"],
+          "media-src": ["'self'", "data:", "blob:", "*.cloudinary.com"],
           upgradeInsecureRequests: null,
         },
       },
